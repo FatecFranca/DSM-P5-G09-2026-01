@@ -1,0 +1,175 @@
+[
+  {
+    "id": "1775809949840",
+    "userId": "user_pl0f6",
+    "version": "A",
+    "timestamp": "2026-04-10T08:32:39.072Z",
+    "type": "click",
+    "pageName": "Home",
+    "buttonName": "Clicou Produto: Câmera Sport 4K"
+  },
+  {
+    "id": "1775809949841",
+    "userId": "user_pl0f6",
+    "version": "A",
+    "timestamp": "2026-04-10T08:32:39.072Z",
+    "type": "render_time",
+    "pageName": "Detalhes_Produto"
+  },
+  {
+    "id": "1775809949842",
+    "userId": "user_pl0f6",
+    "version": "A",
+    "timestamp": "2026-04-10T08:32:39.073Z",
+    "type": "page_view",
+    "pageName": "Detalhes_Produto"
+  },
+  {
+    "id": "1775809952103",
+    "userId": "user_pl0f6",
+    "version": "A",
+    "timestamp": "2026-04-10T08:32:41.345Z",
+    "type": "page_view",
+    "pageName": "Início"
+  },
+  {
+    "id": "1775809954168",
+    "userId": "user_pl0f6",
+    "version": "A",
+    "timestamp": "2026-04-10T08:32:43.378Z",
+    "type": "click",
+    "pageName": "Home",
+    "buttonName": "Clicou Produto: Fone AirPro Bluetooth"
+  },
+  {
+    "id": "1775809954173",
+    "userId": "user_pl0f6",
+    "version": "A",
+    "timestamp": "2026-04-10T08:32:43.378Z",
+    "type": "render_time",
+    "pageName": "Detalhes_Produto"
+  },
+  {
+    "id": "1775809954174",
+    "userId": "user_pl0f6",
+    "version": "A",
+    "timestamp": "2026-04-10T08:32:43.379Z",
+    "type": "page_view",
+    "pageName": "Detalhes_Produto"
+  },
+  {
+    "id": "1775809956531",
+    "userId": "user_pl0f6",
+    "version": "A",
+    "timestamp": "2026-04-10T08:32:45.771Z",
+    "type": "page_view",
+    "pageName": "Início"
+  },
+  {
+    "id": "1775809958375",
+    "userId": "user_pl0f6",
+    "version": "A",
+    "timestamp": "2026-04-10T08:32:47.614Z",
+    "type": "click",
+    "pageName": "Home",
+    "buttonName": "Clicou Produto: Smartwatch Pulse Elite"
+  },
+  {
+    "id": "1775809958381",
+    "userId": "user_pl0f6",
+    "version": "A",
+    "timestamp": "2026-04-10T08:32:47.615Z",
+    "type": "page_view",
+    "pageName": "Detalhes_Produto"
+  },
+  {
+    "id": "1775809958382",
+    "userId": "user_pl0f6",
+    "version": "A",
+    "timestamp": "2026-04-10T08:32:47.614Z",
+    "type": "render_time",
+    "pageName": "Detalhes_Produto"
+  },
+  {
+    "id": "1775809960975",
+    "userId": "user_pl0f6",
+    "version": "A",
+    "timestamp": "2026-04-10T08:32:50.205Z",
+    "type": "click",
+    "pageName": "Detalhes_Produto",
+    "buttonName": "Adicionar ao Carrinho"
+  },
+  {
+    "id": "1775809966034",
+    "userId": "user_pl0f6",
+    "version": "A",
+    "timestamp": "2026-04-10T08:32:55.253Z",
+    "type": "click",
+    "pageName": "Detalhes_Produto",
+    "buttonName": "Adicionar ao Carrinho"
+  },
+  {
+    "id": "1777062762326",
+    "amount": 0.05,
+    "category": "Lazer",
+    "description": "uber",
+    "type": "expense",
+    "date": "2026-04-24T20:32:42.326Z"
+  },
+  {
+    "id": "1777071230505",
+    "amount": 7,
+    "category": "Contas",
+    "description": "divida",
+    "type": "expense",
+    "date": "2026-04-24T22:53:50.505Z"
+  },
+  {
+    "id": "1777071251183",
+    "amount": 20,
+    "category": "Outros",
+    "description": "teste",
+    "type": "income",
+    "date": "2026-04-24T22:54:11.183Z"
+  },
+  {
+    "id": "1777071365675",
+    "amount": 15,
+    "category": "Alimentação",
+    "description": "salgado",
+    "type": "expense",
+    "date": "2026-04-24T22:56:05.675Z"
+  },
+  {
+    "id": "1777071440888",
+    "amount": 30,
+    "category": "Alimentação",
+    "description": "huggs ",
+    "type": "expense",
+    "date": "2026-04-24T22:57:20.888Z"
+  },
+  {
+    "id": "1777071484509",
+    "amount": 300,
+    "category": "Alimentação",
+    "description": "Compras mensais",
+    "type": "expense",
+    "date": "2026-04-24T22:58:04.509Z"
+  },
+  {
+    "id": "1777072150914",
+    "amount": 50,
+    "category": "Contas",
+    "description": "conta de internet",
+    "type": "expense",
+    "date": "2026-04-24T23:09:10.914Z"
+  },
+  {
+    "id": "1777072204387",
+    "amount": 400,
+    "category": "Educação",
+    "description": "Mat escolar",
+    "type": "expense",
+    "date": "2026-04-24T23:10:04.387Z"
+  }
+]
