@@ -3,6 +3,8 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend, CategoryScale, LinearSca
 import { Doughnut, Bar } from 'react-chartjs-2';
 import { Plus, X, ArrowUpCircle, ArrowDownCircle, Banknote } from 'lucide-react';
 import api from './api';
+import AIInsightsCard from "./components/AIInsightsCard";
+
 
 ChartJS.register(ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement, Title);
 
@@ -200,6 +202,11 @@ export default function App() {
              </div>
           </div>
         </div>
+
+        {/* AI CARD */}
+          <div className="mb-8">
+            <AIInsightsCard />
+          </div>
 
         {/* Recent Transactions List */}
         <div className="bg-stone-900/80 border border-stone-800 rounded-2xl p-6">

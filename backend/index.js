@@ -2,6 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
+const axios = require('axios');
+const fs = require('fs')
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -129,6 +131,20 @@ app.get('/dashboard', (req, res) => {
   }
 });
 
+app.get('/api/ml', async (req, res) => {
+
+    const dados = JSON.parse(
+        fs.readFileSync('./data.json')
+    )
+
+    const resposta = await axios.post(
+        'http://localhost:5000/clusterizar',
+        dados
+    )
+
+    res.json(resposta.data)
+})
+
 // Seed data
 app.post('/seed', (req, res) => {
     const seedData = [];
@@ -156,6 +172,33 @@ app.post('/seed', (req, res) => {
     
     saveData(seedData);
     res.json({ message: 'Seed data generated', count: seedData.length });
+});
+
+app.get('/ml/perfil', async (req, res) => {
+
+  try {
+
+    const data = JSON.parse(
+      fs.readFileSync(DATA_FILE, 'utf-8')
+    );
+
+    const resposta = await axios.post(
+      'http://127.0.0.1:5000/classificar',
+      data
+    );
+
+    res.json(resposta.data);
+
+  } catch (error) {
+
+    console.error(error);
+
+    res.status(500).json({
+      error: 'Erro ao processar IA'
+    });
+
+  }
+
 });
 
 app.listen(PORT, '0.0.0.0', () => {
