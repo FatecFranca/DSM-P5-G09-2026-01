@@ -171,5 +171,45 @@
     "description": "Mat escolar",
     "type": "expense",
     "date": "2026-04-24T23:10:04.387Z"
+  },
+  {
+    "id": "1780803971838",
+    "amount": 1000,
+    "category": "Salário",
+    "description": "Salario Extra",
+    "type": "income",
+    "date": "2026-06-07T03:46:11.838Z"
+  },
+  {
+    "id": "1780804061103",
+    "amount": 10000,
+    "category": "Salário",
+    "description": "Salario Extra",
+    "type": "income",
+    "date": "2026-06-07T03:47:41.103Z"
+  },
+  {
+    "id": "1780804229930",
+    "amount": 20000,
+    "category": "Salário",
+    "description": "Salario de Teste Local",
+    "type": "income",
+    "date": "2026-06-07T03:50:29.931Z"
+  },
+  {
+    "id": "1780804586360",
+    "amount": 40000,
+    "category": "Lazer",
+    "description": "Compra de Luxo",
+    "type": "expense",
+    "date": "2026-06-07T03:56:26.360Z"
+  },
+  {
+    "id": "1780807043243",
+    "amount": 50,
+    "category": "Alimentação",
+    "description": "lanche",
+    "type": "income",
+    "date": "2026-06-07T04:37:23.243Z"
   }
 ]
